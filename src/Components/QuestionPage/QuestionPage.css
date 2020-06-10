@@ -1,0 +1,86 @@
+/* will use SCSS to apply content */
+
+.question-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  margin: 10px 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.question h3 {
+  margin-right: 20px;
+}
+
+.question-section {
+  width: 80%;
+  padding: 30px;
+}
+
+.answer-options {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-option {
+  border: 1px solid black;
+  border-color: #f0473d;
+  padding: 10px 30px;
+  width: 40%;
+  margin: 10px;
+}
+
+.selected-option {
+  margin: 0 10px;
+  color: green;
+}
+
+
+.answer-option:hover {
+  box-shadow: 10px 10px 41px 1px rgba(0, 0, 0, 0.43);
+  cursor: pointer;
+  border: 1px solid black;
+  border-color: green;
+}
+
+.progress-section {
+  margin: 5px auto;
+  width: 40%;
+}
+
+.progress-bar {
+  border: 1px solid green;
+  height: 10px;
+  margin: 20px 0;
+}
+
+.progress-bar-indicator {
+  display: block;
+  background-color: green;
+  height: 10px;
+  transition: width 2s;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 5px 30px;
+  width: 50px;
+  margin: 10px auto;
+  border-radius: 9px;
+}
+
+.user-guess {
+  background-color: yellow;
+  color: black;
+}

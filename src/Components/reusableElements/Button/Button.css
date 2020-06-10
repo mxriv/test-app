@@ -1,0 +1,14 @@
+.button {
+  background-color: #3d3733;
+  color: #f8f8f8;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.button:hover {
+  box-shadow: 10px 10px 40px -10px rgba(0, 0, 0, 0.75);
+}
+
+.button:active {
+  box-shadow: 10px 10px 40px -10px rgba(0, 0, 0, 0.54);
+}
